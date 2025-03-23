@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS-Random</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CS-Random</h1>
+        <div id="player-setup">
+            <h2>Ajoutez les joueurs</h2>
+            <form id="player-form">
+                <input type="text" id="player1" placeholder="Joueur 1" required>
+                <input type="text" id="player2" placeholder="Joueur 2">
+                <input type="text" id="player3" placeholder="Joueur 3">
+                <input type="text" id="player4" placeholder="Joueur 4">
+                <input type="text" id="player5" placeholder="Joueur 5">
+                <button type="submit">Lancer la partie</button>
+            </form>
+        </div>
+        
+        <div id="game-screen" class="hidden">
+            <h2>Armes attribuées</h2>
+            <div id="players-list"></div>
+            <div class="controls">
+                <button id="round-won">Round gagné</button>
+                <button id="round-lost">Round perdu</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
