@@ -54,8 +54,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const weaponPools = {
         eco: ["Glock-18/USP-S", "P250", "Five-SeveN", "Dual Baretta", "Deagle", "Tec-9"],
-        force: ["Deagle", "Tec-9", "MAC-10", "MP9", "UMP-45", "FAMAS", "Galil AR", "SSG"],
-        complet: ["AK-47", "M4A1-S", "AWP", "SSG", "SG 553/AUG", "P90", "Negev", "FAMAS", "Galil AR"]
+        force: ["Deagle", "Tec-9", "MAC-10", "MP9", "UMP-45", "FAMAS/Galil AR", "SSG"],
+        complet: ["AK-47/M4A1-S", "AK-47/M4A4", "AWP", "SSG", "SG 553/AUG", "P90", "Negev", "FAMAS/Galil AR"]
     };
 
     playerForm.addEventListener("submit", (event) => {
